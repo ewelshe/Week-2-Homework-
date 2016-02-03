@@ -1,0 +1,16 @@
+int border = 20;
+void setup () {
+  size (500,500);
+  background (0);
+} 
+void draw () {
+
+
+int i = 0;
+while ( i < 500){
+  fill(255);
+   beginShape();
+  ellipse(10+i,20+i,40,40);
+  i= i + 30; 
+}
+}
